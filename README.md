@@ -27,4 +27,16 @@ URL playback from the Internet
 ![stream4](https://github.com/halilozel1903/SwiftVideoTutorial/blob/master/StreamVideo/StreamVideo/Screenshots/stream4.png)
 ![stream5](https://github.com/halilozel1903/SwiftVideoTutorial/blob/master/StreamVideo/StreamVideo/Screenshots/stream5.png)
 
+<br><br>
+
+- [YouTube Video](https://github.com/halilozel1903/SwiftVideoTutorial/tree/master/YouTubeVideo) <br>
+
+URL embed playback from the YouTube
+
+![youtube0](https://github.com/halilozel1903/SwiftVideoTutorial/blob/master/YouTubeVideo/YouTubeVideo/Screenshots/youtube0.png)
+![youtube1](https://github.com/halilozel1903/SwiftVideoTutorial/blob/master/YouTubeVideo/YouTubeVideo/Screenshots/youtube1.png)
+![youtube2](https://github.com/halilozel1903/SwiftVideoTutorial/blob/master/YouTubeVideo/YouTubeVideo/Screenshots/youtube2.png)
+![youtube3](https://github.com/halilozel1903/SwiftVideoTutorial/blob/master/YouTubeVideo/YouTubeVideo/Screenshots/youtube3.png)
+![youtube4](https://github.com/halilozel1903/SwiftVideoTutorial/blob/master/YouTubeVideo/YouTubeVideo/Screenshots/youtube4.png)
+![youtube5](https://github.com/halilozel1903/SwiftVideoTutorial/blob/master/YouTubeVideo/YouTubeVideo/Screenshots/youtube5.png)
 
