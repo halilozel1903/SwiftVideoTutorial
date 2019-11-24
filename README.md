@@ -2,7 +2,8 @@
 
 ![Screenshot](screen.png)
 
-Swift Programming Video Tutorial
+There are 3 different examples in this project.<br>
+These courses : Playing Video, Stream Video, YouTube Video
 
 ## Lessons
 
