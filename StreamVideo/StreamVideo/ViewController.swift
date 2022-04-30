@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  StreamVideo
 //
-//  Created by macbookpro on 14.06.2019.
-//  Copyright © 2019 halilozel. All rights reserved.
+//  Created by macbookpro on 30.04.2022.
+//  Copyright © 2022 halilozel. All rights reserved.
 //
 
 import UIKit
@@ -13,37 +13,32 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
-    // AVPlayerViewController olayını ele almak için streamController nesnesi tanımlandı.
+    // A streamController object is defined to handle the AVPlayerViewController event.
     var streamController = AVPlayerViewController()
     
-    // AVPlayer nesnesi tanımlandı.
+    // The AVPlayer object has been defined.
     var streamPlayer : AVPlayer?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // stream video
-        
-        // streamVideoURL değerinde video ile ilgili bilgiler - url bilgisi
+        // Stream Video URL value video related information - url info
         let streamVideoURL : NSURL? = NSURL(string: "https://sample-videos.com/video123/mp4/480/big_buck_bunny_480p_20mb.mp4")
         
-        // streamPlayer nesnesine atandı
+        // Assigned to streamPlayer object
         streamPlayer = AVPlayer(url: streamVideoURL! as URL)
         
-        // streamController içindeki player değerine player nesnesi atandı.
+        // Player object is assigned to player value in streamController.
         streamController.player = streamPlayer
-        
-
-        
     }
-
-    // butona tıklanınca neler olacak
+    
+    // What will happen when the button is clicked?
     @IBAction func streamVideo(_ sender: Any) {
         
-        // present işlemi için controller, animasyon ve işlem sonucunda neler olacak tanımlamaları
+        // Definitions of controller for present operation, animation and what will happen as a result of operation.
         self.present(self.streamController, animated: true, completion: {
             
-            // streamController player nesnesini play metodunu verip oynatma işlemi başlıyor.
+            // The streamController gives the player object the play method and the playback starts.
             self.streamController.player?.play()
         })
         
