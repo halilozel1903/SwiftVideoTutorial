@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  PlayingVideo
 //
-//  Created by macbookpro on 14.06.2019.
-//  Copyright © 2019 halilozel. All rights reserved.
+//  Updated by macbookpro on 30.04.2022.
+//  Copyright © 2022 halilozel. All rights reserved.
 //
 
 import UIKit
@@ -11,35 +11,35 @@ import AVFoundation
 import AVKit
 
 class ViewController: UIViewController {
-
-    // AVPlayerViewController olayını ele almak için playerController nesnesi tanımlandı.
+    
+    // A playerController object is defined to handle the AVPlayerViewController event.
     var playerController = AVPlayerViewController()
     
-    // AVPlayer nesnesi tanımlandı.
+    // The AVPlayer object has been defined.
     var player : AVPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // videoString değerinde video ile ilgili bilgiler verildi. -> music.mp4
+        
+        // The videoString value gives information about the video. -> music.mp4
         let videoString = Bundle.main.path(forResource: "music", ofType: "mp4")
         
-        // player nesnesine URL değeri atandı.
+        // The URL value is assigned to the player object.
         player = AVPlayer(url: URL(fileURLWithPath: videoString!))
         
-        // PlayerController içindeki player değerine player nesnesi atandı.
+        // A player object is assigned to the player value in the PlayerController.
         playerController.player = player
-
+        
     }
-
-
-    // buttona tıklanınca video oynatma işlemi
+    
+    
+    // Video playback by clicking the button
     @IBAction func playVideo(_ sender: Any) {
         
-        // present işleminde controller, animation, completion olayları
+        // Controller, animation, completion events in present action
         self.present(self.playerController, animated: true, completion: {
             
-            // PlayerController içindeki player nesnesini oynatmaya başla
+            // Start playing player object in PlayerController
             self.playerController.player?.play()
         })
     }
