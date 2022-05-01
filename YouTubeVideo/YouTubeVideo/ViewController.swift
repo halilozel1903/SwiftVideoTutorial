@@ -2,31 +2,27 @@
 //  ViewController.swift
 //  YouTubeVideo
 //
-//  Created by macbookpro on 14.06.2019.
-//  Copyright © 2019 halilozel. All rights reserved.
+//  Updated by halilozel on 01.05.2022.
+//  Copyright © 2022 halilozel. All rights reserved.
 //
 
 import UIKit
 import WebKit
 
 class ViewController: UIViewController {
-
     
-    // webView nesnesi
+    // webView object
     @IBOutlet weak var webView: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // YouTube Video
+        // YouTube Embed String
+        let embedString = "<iframe width=\"90%\" height=\"400\" src=\"https://www.youtube.com/embed/hNQFjqDvPhA\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
         
-        // youtube embed string
-        let embedString = "<iframe width=\"1920\" height=\"1080\" src=\"https://www.youtube.com/embed/hNQFjqDvPhA\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
-        
-        // webview nesnesinde html yükleme işlemi - linki verme
+        // Html load action in webview object - give the link
         webView.loadHTMLString(embedString, baseURL: nil)
     }
-
-
+    
 }
 
