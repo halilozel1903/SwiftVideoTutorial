@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  PlayingVideo
 //
-//  Updated by macbookpro on 30.04.2022.
-//  Copyright © 2022 halilozel. All rights reserved.
+//  Updated by halilozel on 01.09.2024.
+//  Copyright © 2024 halilozel. All rights reserved.
 //
 
 import UIKit

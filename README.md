@@ -53,7 +53,7 @@ If this project help 💁 you to develop, you can give me a cup of coffee. ☕
 ```
 MIT License
 
-Copyright (c) 2023 Halil OZEL
+Copyright (c) 2024 Halil OZEL
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

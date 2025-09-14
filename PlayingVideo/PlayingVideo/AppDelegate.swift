@@ -3,12 +3,12 @@
 //  PlayingVideo
 //
 //  Created by macbookpro on 14.06.2019.
-//  Copyright © 2019 halilozel. All rights reserved.
+//  Copyright © 2024 halilozel. All rights reserved.
 //
 
 import UIKit
 
-@UIApplicationMain
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
