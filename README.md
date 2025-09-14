@@ -8,6 +8,20 @@ AVPlayer is for playing a single media asset at a time. You can reuse the player
 
 You use an AVPlayer to play media assets, which AVFoundation models using the AVAsset class. AVAsset only models the static aspects of the media, such as its duration or creation date, and on its own, is unsuitable for playback with an AVPlayer. To play an asset, you need to create an instance of its dynamic counterpart found in AVPlayerItem. This object models the timing and presentation state of an asset played by an instance of AVPlayer. See the AVPlayerItem reference for more details.
 
+## 🆕 Recent Updates (September 2024)
+
+This repository has been updated to modern iOS development standards:
+- **iOS 14.0+** minimum deployment target (updated from iOS 12.2)
+- **Swift 5.9** language version (updated from Swift 5.0)
+- **Scene Delegate** support for modern app lifecycle
+- **@main** attribute instead of deprecated @UIApplicationMain
+- **Modern URL APIs** replacing deprecated NSURL usage
+- **arm64 architecture** requirement (updated from armv7)
+- **Updated copyright notices** to 2024
+
+### 📋 Setup Note
+When opening projects in Xcode, you may need to manually add the `SceneDelegate.swift` files to your project if they don't appear automatically. The files are already created in each project folder.
+
 ## Lessons 📖
 
 - [Playing Video](https://github.com/halilozel1903/SwiftVideoTutorial/tree/master/PlayingVideo) <br>
