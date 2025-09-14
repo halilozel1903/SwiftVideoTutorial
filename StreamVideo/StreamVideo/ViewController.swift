@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  StreamVideo
 //
-//  Created by macbookpro on 30.04.2022.
-//  Copyright © 2022 halilozel. All rights reserved.
+//  Updated by halilozel on 01.09.2024.
+//  Copyright © 2024 halilozel. All rights reserved.
 //
 
 import UIKit
@@ -23,10 +23,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Stream Video URL value video related information - url info
-        let streamVideoURL : NSURL? = NSURL(string: "https://sample-videos.com/video123/mp4/480/big_buck_bunny_480p_20mb.mp4")
+        let streamVideoURL = URL(string: "https://sample-videos.com/video123/mp4/480/big_buck_bunny_480p_20mb.mp4")
         
         // Assigned to streamPlayer object
-        streamPlayer = AVPlayer(url: streamVideoURL! as URL)
+        streamPlayer = AVPlayer(url: streamVideoURL!)
         
         // Player object is assigned to player value in streamController.
         streamController.player = streamPlayer
